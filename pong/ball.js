@@ -4,7 +4,7 @@ class Ball{
         this.y = 0;
     }
 
-    draw = (canvasCtx) =>{
+    draw = (ctx) =>{
         ctx.fillStyle = "black";
         ctx.beginPath();
         ctx.arc(100, 75, 3, 0, 2 * Math.PI);
