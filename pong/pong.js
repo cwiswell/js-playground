@@ -1,0 +1,1 @@
+let canvasCtx = document.getElementById("pongCanvas").getContext('2d');
