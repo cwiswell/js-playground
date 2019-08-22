@@ -1,16 +1,5 @@
 import React, { Fragment } from 'react';
 import Typography from '@material-ui/core/Typography';
-import { withStyles } from '@material-ui/core/styles';
-
-const styles = (theme) => ({
-    root: {
-      flexGrow: 1,
-    },
-    paper: {
-      height: 140,
-      width: 100,
-    }
-  });
 
 const Home = (prop) => {
     return (
@@ -18,8 +7,11 @@ const Home = (prop) => {
             <Typography variant="h4">
                 Home
             </Typography>
+            <Typography variant="body1">
+                This site is design to contain many different javascript projects being worked on.
+            </Typography>
         </Fragment>
     );
 }
 
-export default withStyles(styles)(Home);
+export default (Home);
