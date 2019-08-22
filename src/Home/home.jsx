@@ -1,7 +1,25 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Typography from '@material-ui/core/Typography';
+import { withStyles } from '@material-ui/core/styles';
+
+const styles = (theme) => ({
+    root: {
+      flexGrow: 1,
+    },
+    paper: {
+      height: 140,
+      width: 100,
+    }
+  });
 
 const Home = (prop) => {
-    return (<div>Home</div>)
+    return (
+        <Fragment>
+            <Typography variant="h4">
+                Home
+            </Typography>
+        </Fragment>
+    );
 }
 
-export default Home;
+export default withStyles(styles)(Home);
