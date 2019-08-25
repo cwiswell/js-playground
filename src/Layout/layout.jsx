@@ -51,7 +51,7 @@ const Layout = (props) => {
                     <Toolbar>
                         <Typography variant="h6" noWrap>
                             JS Playground
-                    </Typography>
+                        </Typography>
                     </Toolbar>
                 </AppBar>
                 <Drawer variant="permanent"
@@ -68,6 +68,9 @@ const Layout = (props) => {
                         </MenuItem>
                         <MenuItem component={Link} to="/pong">
                             <ListItemText primary="Pong" />
+                        </MenuItem>
+                        <MenuItem component={Link} to="/canvas-test">
+                            <ListItemText primary="Canvas Test" />
                         </MenuItem>
                     </MenuList>
                 </Drawer>

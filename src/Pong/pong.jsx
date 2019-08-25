@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import { Typography } from '@material-ui/core';
 
 const Pong = (prop) => {
+    
+
     return (
-        <div>
-            <h1>Pong</h1>
-            <canvas ></canvas>
-        </div>
+        <Fragment>
+            <Typography variant="h2">
+                Pong
+            </Typography>
+        </Fragment>
     );
 }
 
